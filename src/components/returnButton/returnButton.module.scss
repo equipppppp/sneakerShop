@@ -1,0 +1,19 @@
+.confirmBtn {
+  width: 300px;
+  height: 55px;
+  background: #9dd558;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  &:hover {
+    background: lighten($color: #9dd558, $amount: 5%);
+  }
+  &:active {
+    background: darken($color: #9dd558, $amount: 10%);
+  }
+}

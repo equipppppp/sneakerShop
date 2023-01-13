@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 20px;
+  }
+  .logo_text {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+}
+
+.userBlock {
+  width: 200px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p,
+  img {
+    cursor: pointer;
+  }
+  p {
+    width: 75px;
+    text-align: center;
+  }
+}

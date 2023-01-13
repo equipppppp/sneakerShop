@@ -1,0 +1,46 @@
+.card {
+  width: 210px;
+  height: 260px;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  margin-top: 40px;
+  padding: 20px 30px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
+  .sneakerInfo {
+    position: relative;
+    .cardText {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    .favorite {
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+}
+
+.costInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  .cost {
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 11px;
+      color: #bdbdbd;
+    }
+  }
+  img {
+    cursor: pointer;
+  }
+}
